@@ -1,0 +1,27 @@
+{
+  "name": "portafolio1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "9.22.0",
+    "eslint-config-manzdev": "1.0.14-alpha",
+    "gh-pages": "^6.3.0",
+    "stylelint": "16.3.1",
+    "stylelint-config-manzdev": "^0.0.18",
+    "vite": "^6.2.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1+sha512.e519b9f7639869dc8d5c3c5dfef73b3f091094b0a006d7317353c72b124e80e1afd429732e28705ad6bfa1ee879c1fce46c128ccebd3192101f43dd67c667912",
+  "dependencies": {
+    "animejs": "^4.0.2"
+  }
+}

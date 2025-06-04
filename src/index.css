@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  background: #000;
+}
+
+.slider{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.panel{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  flex-shrink: 0;
+}
