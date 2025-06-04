@@ -11,6 +11,9 @@ importers:
       animejs:
         specifier: ^4.0.2
         version: 4.0.2
+      three:
+        specifier: ^0.177.0
+        version: 0.177.0
     devDependencies:
       eslint:
         specifier: 9.22.0
@@ -2310,6 +2313,9 @@ packages:
   tapable@2.2.2:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
     engines: {node: '>=6'}
+
+  three@0.177.0:
+    resolution: {integrity: sha512-EiXv5/qWAaGI+Vz2A+JfavwYCMdGjxVsrn3oBwllUoqYeaBO75J63ZfyaQKoiLrqNHoTlUc6PFgMXnS0kI45zg==}
 
   tinyglobby@0.2.14:
     resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
@@ -5154,6 +5160,8 @@ snapshots:
       strip-ansi: 6.0.1
 
   tapable@2.2.2: {}
+
+  three@0.177.0: {}
 
   tinyglobby@0.2.14:
     dependencies:
